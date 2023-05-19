@@ -27,9 +27,10 @@ The Equity Insight Application is built using the following technologies:
 To run the Equity Insight Application locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/drodriguez97/EquityInsight`
-2. Obtain the necessary API keys and credentials for Firebase and Yahoo Finance.
-3. Replace the placeholders in the code with your API keys and credentials.
-4. Run the application: `streamlit run main.py`
+2. Obtain the necessary API keys and credentials for Firebase and Yahoo 
+3. 2. Install the required dependencies: `pip install -r requirements.txt`Finance.
+4. Replace the placeholders in the code with your API keys and credentials.
+5. Run the application: `streamlit run main.py`
 
 ## Contributing
 
