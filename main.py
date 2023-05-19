@@ -24,7 +24,7 @@ db = firestore.client()
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
-st.image("equity.png", use_column_width=True)
+st.image("public\equity.png", use_column_width=True)
 st.info('The purpose of this application is to allow the user to select any of the top 10 performing stocks and look at current performance values but also a stock price prediction')
 
 stocks = {
