@@ -265,4 +265,4 @@ st.write(fig2)\
     
 st.markdown("---")
 st.markdown("Developed by [Daniel Rodriguez]")
-st.markdown("[GitHub Repository](https://github.com/your/repo)")
+st.markdown("[GitHub Repository](https://github.com/drodriguez97/EquityInsight)")
