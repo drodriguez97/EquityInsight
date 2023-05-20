@@ -1,5 +1,5 @@
 .env
-.config.py
+
 #firebase json
 firebase.json
 .json
@@ -8,7 +8,7 @@ firebase.json
 
 #creds
 creds.py
-
+config.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

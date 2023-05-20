@@ -1,4 +1,5 @@
 import creds
+import config
 import pandas as pd
 import streamlit as st
 from datetime import date
@@ -15,7 +16,7 @@ from firebase_admin import auth
 from firebase_admin import credentials, firestore
 
 ############### FIREBASE INIT ###############################################################
-cred = credentials.Certificate("equityinsight-c9145-firebase-adminsdk-ui9df-231da079b7.json")
+cred = credentials.Certificate(config.FIREBASE_ADMIN_SDK_PATH)
 if not firebase_admin._apps:
     firebase_admin.initialize_app(cred)
 db = firestore.client()
